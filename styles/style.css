@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header {
@@ -7,24 +8,25 @@
     background-repeat: no-repeat;
     background-size: 100%;
     height: 754px;
-    /* position: absolute; */
+    color: white;
+
 
 }
 
 .subheader {
     text-align: right;
     padding-left: 890px;
-    padding-top: 260px;
-    height: 400px;
-    width: 400px;
+    padding-top: 175px;
+    height: 563px;
+    width: 473px;
 
 
 }
 
 .header-title {
-    font-size: 63px;
-    font-weight: 800;
-    margin-bottom: 21px;
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 18px;
 }
 
 .header-peragraph {
@@ -36,20 +38,26 @@
 .btn-primary {
     width: 160px;
     height: 56px;
-    padding: 16px 12px;
-    gap: 8px;
-    background: #FF5959;
-    color: white;
+    padding: 14px 12px;
+    background:white;
+    color: rgb(99, 85, 199);
     border-radius: 5px;
     border: none;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 700;
     text-align: center;
     margin-top: 20px;
 }
 
 /* 1st section */
-.failure {}
+
+.failure{
+    position: absolute;
+    width: 485px;
+    height: 317px;
+    left: 50px;
+    padding-top: 56px;
+}
 
 .failure-main {
     display: flex;
@@ -86,14 +94,14 @@
 }
 
 .plan-title {
-    font-size: 29px;
+    font-size: 27px;
     margin: 15px 0px;
 }
 
 .plan-heading {
     position: absolute;
-    margin: 978px 679px;
-    font-size: 40px;
+    margin: 978px 674px;
+    font-size: 41px;
     font-weight: 800;
 
 }
@@ -116,7 +124,7 @@
 .image2 {
     /* margin: 1468px 600px; */
     position: absolute;
-    background-image: url(../images/gradient1.png),linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url(../images/watch.png);
+    background-image: url(../images/gradient1.png), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1044px;
@@ -131,14 +139,15 @@
 }
 
 .image-heading {
-    padding-top: 50px;
+    padding-top: 37px;
     padding-left: 50px;
     font-size: 40px;
     color: white;
-    width: 387px;
+    width: 424px;
 
 }
-.btn-2nd{
+
+.btn-2nd {
     width: 160px;
     height: 56px;
     padding: 16px 12px;
@@ -152,4 +161,75 @@
     text-align: center;
     margin-top: 20px;
     margin-left: 50px;
+}
+
+.footer {
+    margin: 1963px 0px;
+    position: absolute;
+    background-color: #181515;
+    color: white;
+    display: flex;
+    position: absolute;
+    width: 1520px;
+    height: 577px;
+}
+
+.footer-title{
+    font-size: 45px;
+    margin-bottom: 23px;
+}
+
+.input-title {
+    font-size: 26px;
+    padding-bottom: 22px;
+    font-weight: 600;
+}
+
+.btn-3nd {
+    width: 160px;
+    height: 56px;
+    padding: 16px 12px;
+    background: #4747af;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subscribe {
+    position: absolute;
+    width: 325px;
+    height: 204px;
+    left: 1046px;
+    padding-top: 130px;
+}
+
+.future{
+    position: absolute;
+    width: 485px;
+    height: 317px;
+    left: 257px;
+    padding-top: 130px;
+}
+input{
+    padding: 22px 15px;
+    border-radius: 13px;
+    width: 86%;
+    background: black;
+    border: 2px solid white;
+    font-size: 16px;
+}
+
+.image3{
+    gap: 25px;
+    margin-top: 25px;
+    display: flex;
+}
+
+i{
+    color:rgb(26, 214, 26);
+    
 }
