@@ -39,7 +39,7 @@
     width: 160px;
     height: 56px;
     padding: 14px 12px;
-    background:white;
+    background: white;
     color: rgb(99, 85, 199);
     border-radius: 5px;
     border: none;
@@ -51,7 +51,7 @@
 
 /* 1st section */
 
-.failure{
+.failure {
     position: absolute;
     width: 485px;
     height: 317px;
@@ -84,8 +84,6 @@
 }
 
 /* plans section */
-
-.plan {}
 
 .plans {
     display: flex;
@@ -122,7 +120,6 @@
 /* 3rd section */
 
 .image2 {
-    /* margin: 1468px 600px; */
     position: absolute;
     background-image: url(../images/gradient1.png), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
     background-repeat: no-repeat;
@@ -134,7 +131,7 @@
 }
 
 .section3 {
-    margin: 1468px 244px;
+    margin: 1740px 244px;
     position: absolute;
 }
 
@@ -163,18 +160,18 @@
     margin-left: 50px;
 }
 
+/* footer */
 .footer {
-    margin: 1963px 0px;
+    margin: 2150px 0px;
     position: absolute;
     background-color: #181515;
     color: white;
     display: flex;
-    position: absolute;
     width: 1520px;
     height: 577px;
 }
 
-.footer-title{
+.footer-title {
     font-size: 45px;
     margin-bottom: 23px;
 }
@@ -207,14 +204,15 @@
     padding-top: 130px;
 }
 
-.future{
+.future {
     position: absolute;
     width: 485px;
     height: 317px;
     left: 257px;
     padding-top: 130px;
 }
-input{
+
+input {
     padding: 18px 15px;
     border-radius: 13px;
     width: 83%;
@@ -223,13 +221,40 @@ input{
     font-size: 16px;
 }
 
-.image3{
+.image3 {
     gap: 25px;
     margin-top: 25px;
     display: flex;
 }
 
-i{
-    color:rgb(26, 214, 26);
-    
+i {
+    color: rgb(26, 214, 26);
+
+}
+
+/* about section */
+
+.about {
+    display: flex;
+    position: absolute;
+    background-color: aliceble;
+    margin: 1390px 273px;
+    border-radius: 35px
+}
+
+.about-section {
+    height: 224px;
+    width: 980px;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 44px;
+    font-weight: 900;
+}
+
+.about-peragraph {
+    font-size: 23px;
+    font-weight: 500;
+    margin: 24px 81px;
 }
