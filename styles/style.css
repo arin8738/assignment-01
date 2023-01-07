@@ -7,7 +7,7 @@
     background: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 754px;
+    height: 767px;
     color: white;
 
 
@@ -17,7 +17,7 @@
     text-align: right;
     padding-left: 890px;
     padding-top: 175px;
-    height: 563px;
+    height: 450px;
     width: 473px;
 
 
@@ -73,14 +73,14 @@
 }
 
 .failure-title {
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 38px;
+    font-weight: 900;
     margin-bottom: 20px;
 }
 
 .discription {
-    margin-left: 74px;
-    padding-top: 394px;
+    margin-left: 89px;
+    padding-top: 330px;
 }
 
 /* plans section */
@@ -187,7 +187,7 @@
 
 .btn-3nd {
     width: 160px;
-    height: 56px;
+    height: 54px;
     padding: 16px 12px;
     background: #4747af;
     color: white;
@@ -215,11 +215,11 @@
     padding-top: 130px;
 }
 input{
-    padding: 22px 15px;
+    padding: 18px 15px;
     border-radius: 13px;
-    width: 86%;
-    background: black;
-    border: 2px solid white;
+    width: 83%;
+    background: #181515;
+    border: 1px solid white;
     font-size: 16px;
 }
 
